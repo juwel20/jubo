@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color:lightgreen;
+    
+    
+}
+
+header {
+    background-color: black;
+    padding: 40px 10px;
+    border-radius: 30px;
+}
+
+.cap3{
+    background-color: transparent;
+    max-width: 800px;
+        height: auto;
+    padding-left:32%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 100px;
+    padding-right: 150px;
+}
+.about{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+    
+    
+}
+.home{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+}
+.notice{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+}
+.add{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+}
+.regi{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+}
+
+h1 {
+    font-style: oblique;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 80px;
+}
+a {
+    
+    font-style: italic;
+    padding-left: 32%;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: gray;
+}
+

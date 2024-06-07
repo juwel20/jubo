@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+    
+    
+    
+}
+
+header {
+    background-color: black;
+    padding: 40px 10px;
+    border-radius: 30px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 100px;
+    padding-right: 150px;
+}
+.about{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+    
+    
+}
+.home{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+}
+.notice{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+}
+.add{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+}
+.regi{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-style:oblique;
+}
+p{
+    text-align: center;
+    padding-top: 160px;
+    font-size: 50px;
+    text-decoration: underline;
+    font-style: italic;
+}

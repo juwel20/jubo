@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Display</title>
+    <link rel="stylesheet" href="a.css">
+    <script>
+        function fetchData(table) {
+            fetch(`a.php?table=${table}`)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('data-display').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        }
+
+        function updateData() {
+            // Logic for updating data can be implemented here
+            alert("ঠান্ডা হন ভাই ");
+        }
+
+        function deleteData() {
+            // Logic for deleting data can be implemented here
+            alert("ঠান্ডা হন ভাই ");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>The persons who have registred</h1>
+        <div class="buttons">
+            <button onclick="fetchData('2222tk')">2222tk</button>
+            <button onclick="fetchData('4444tk')">4444tk</button>
+        </div>
+        <div id="data-display" class="data-display">
+            <!-- Data from the database will be displayed here -->
+        </div>
+        <div class="buttons">
+            <button onclick="updateData()">Update</button>
+            <button onclick="deleteData()">Delete</button>
+        </div>
+    </div>
+</body>
+</html>
